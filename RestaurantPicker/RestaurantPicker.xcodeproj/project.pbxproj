@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E73301CA1AC36CD5009CC041 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73301C91AC36CD5009CC041 /* ResultViewController.swift */; };
 		E7DE468C1ABA1E2F006F1D01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DE468B1ABA1E2F006F1D01 /* AppDelegate.swift */; };
 		E7DE468E1ABA1E2F006F1D01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DE468D1ABA1E2F006F1D01 /* ViewController.swift */; };
 		E7DE46911ABA1E2F006F1D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7DE468F1ABA1E2F006F1D01 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E73301C91AC36CD5009CC041 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		E7DE46861ABA1E2F006F1D01 /* RestaurantPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7DE468A1ABA1E2F006F1D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7DE468B1ABA1E2F006F1D01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				E7DE468B1ABA1E2F006F1D01 /* AppDelegate.swift */,
 				E7DE468D1ABA1E2F006F1D01 /* ViewController.swift */,
 				E7DE468F1ABA1E2F006F1D01 /* Main.storyboard */,
+				E73301C91AC36CD5009CC041 /* ResultViewController.swift */,
 				E7DE46921ABA1E2F006F1D01 /* Images.xcassets */,
 				E7DE46941ABA1E2F006F1D01 /* LaunchScreen.xib */,
 				E7DE46891ABA1E2F006F1D01 /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				E7DE468E1ABA1E2F006F1D01 /* ViewController.swift in Sources */,
 				E7DE468C1ABA1E2F006F1D01 /* AppDelegate.swift in Sources */,
+				E73301CA1AC36CD5009CC041 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

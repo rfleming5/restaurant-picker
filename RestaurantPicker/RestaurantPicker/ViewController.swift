@@ -9,10 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var result = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        result.hidden = true
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,10 +27,16 @@ class ViewController: UIViewController {
     @IBAction func pick(sender: UIButton) {
         let array = [pick1, pick2, pick3]
         let randomIndex = Int(arc4random_uniform(UInt32(array.count)))
-        result.text = array[randomIndex].text
-        result.hidden = false
+        
+        result = array[randomIndex].text
+        
+        performSegueWithIdentifier("ResultView", sender: self)
     }
     
-    @IBOutlet weak var result: UILabel!
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let controller = (segue.destinationViewController as? ResultViewController) {
+            controller.resultString = result
+        }
+    }
 }
-
