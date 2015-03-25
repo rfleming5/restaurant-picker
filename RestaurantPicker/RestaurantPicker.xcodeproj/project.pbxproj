@@ -405,6 +405,7 @@
 				E7DE46A71ABA1E2F006F1D01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7DE46A81ABA1E2F006F1D01 /* Build configuration list for PBXNativeTarget "RestaurantPickerTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				E7DE46AA1ABA1E2F006F1D01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
