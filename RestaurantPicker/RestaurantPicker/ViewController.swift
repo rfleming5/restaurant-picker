@@ -20,12 +20,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBOutlet weak var pick1: UITextField!
-    @IBOutlet weak var pick2: UITextField!
-    @IBOutlet weak var pick3: UITextField!
-
-    @IBAction func pick(sender: UIButton) {
-        let array = [pick1, pick2, pick3]
+    @IBOutlet weak var restaurantChoice1: UITextField!
+    @IBOutlet weak var restaurantChoice2: UITextField!
+    @IBOutlet weak var restaurantChoice3: UITextField!
+    
+    @IBAction func chooseRestaurant(sender: UIButton) {
+        let array = [restaurantChoice1, restaurantChoice2, restaurantChoice3]
         let randomIndex = Int(arc4random_uniform(UInt32(array.count)))
         
         result = array[randomIndex].text

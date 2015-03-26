@@ -15,6 +15,8 @@ class ResultViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Segue will set the string
         resultLabel.text = resultString!
     }
 
